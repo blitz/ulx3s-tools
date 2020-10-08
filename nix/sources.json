@@ -1,4 +1,16 @@
 {
+    "fujprog": {
+        "branch": "master",
+        "description": "FPGA ULX2/3 JTAG programmer",
+        "homepage": "",
+        "owner": "kost",
+        "repo": "fujprog",
+        "rev": "f498967a641e410931f5c8b5ba5c331e90bbef4b",
+        "sha256": "05z9p3jmgjvhpkiyaxh1889032ww4n8g9xbi8yzgiqhmwknzxg9b",
+        "type": "tarball",
+        "url": "https://github.com/kost/fujprog/archive/f498967a641e410931f5c8b5ba5c331e90bbef4b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nixpkgs": {
         "branch": "release-20.09",
         "description": "Nix Packages collection",
@@ -9,18 +21,6 @@
         "sha256": "0qw3ls69wifwms7z14kmqxapr3r7j5zknn0dca8vpx3xvq2bhz3h",
         "type": "tarball",
         "url": "https://github.com/NixOS/nixpkgs/archive/a6dca580a23b1c614f2e9d02c430250c0578d667.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "f32c-tools": {
-        "branch": "master",
-        "description": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
-        "homepage": "",
-        "owner": "f32c",
-        "repo": "tools",
-        "rev": "0698352b0e912caa9b8371b8f692e19aac547a69",
-        "sha256": "05gqvhg2yydvkfhzfr1kxr89amfzyvrnvx2pgnzi7qb2wljsj21a",
-        "type": "tarball",
-        "url": "https://github.com/f32c/tools/archive/0698352b0e912caa9b8371b8f692e19aac547a69.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
