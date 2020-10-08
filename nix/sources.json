@@ -22,5 +22,17 @@
         "type": "tarball",
         "url": "https://github.com/NixOS/nixpkgs/archive/a6dca580a23b1c614f2e9d02c430250c0578d667.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "yosys": {
+        "branch": "master",
+        "description": "Yosys Open SYnthesis Suite",
+        "homepage": "http://www.clifford.at/yosys/",
+        "owner": "cliffordwolf",
+        "repo": "yosys",
+        "rev": "7670a89e1fde7d0774695ab81031a90fafdf56b9",
+        "sha256": "15d8gzw415ajp57kgkds3zvj88139q9rav4znaj0varw7m94kfsv",
+        "type": "tarball",
+        "url": "https://github.com/cliffordwolf/yosys/archive/7670a89e1fde7d0774695ab81031a90fafdf56b9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
