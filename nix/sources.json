@@ -11,6 +11,18 @@
         "url": "https://github.com/kost/fujprog/archive/f498967a641e410931f5c8b5ba5c331e90bbef4b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nextpnr": {
+        "branch": "master",
+        "description": "nextpnr portable FPGA place and route tool",
+        "homepage": null,
+        "owner": "YosysHQ",
+        "repo": "nextpnr",
+        "rev": "b5054f0d7777b7f831d2223479628372e968e89a",
+        "sha256": "0jqgi59m1rshdwn7x1zjlwvx38gdhhkfajnbjdq6yd0vd74wn099",
+        "type": "tarball",
+        "url": "https://github.com/YosysHQ/nextpnr/archive/b5054f0d7777b7f831d2223479628372e968e89a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nixpkgs": {
         "branch": "release-20.09",
         "description": "Nix Packages collection",

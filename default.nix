@@ -9,4 +9,9 @@ in {
     version = "20201008-git";
     src = sources.yosys;
   });
+
+  nextpnr = pkgs.nextpnr.overrideAttrs (old: {
+    version = "20201001-git";
+    src = sources.nextpnr;
+  });
 }
